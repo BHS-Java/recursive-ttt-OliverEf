@@ -5,6 +5,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "main.java.edu.bhscs.Main",
+            "projectName": "recursive-ttt-OliverEf_97bafc2b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Main",
             "projectName": "intro_7a413dca"
         },
