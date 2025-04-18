@@ -9,7 +9,7 @@ public class TicTacToe {
       currentPlayer = 'X';
       for (int i = 0; i < 3; i++) {
           for (int j = 0; j < 3; j++) {
-              board[i][j] = ' ';
+              board[i][j] = '-';
           }
       }
   }
@@ -37,5 +37,14 @@ private boolean checkColumn(int row, int col, char player){
 private boolean checkDiagonal(char player){
 
   return true;
+}
+public void printBoard(){
+  for (int i = 0; i < 3; i++) {
+    System.out.println();
+    for (int j = 0; j < 3; j++) {
+      System.out.print(board[i][j]);
+    }
+}
+  
 }
 }
